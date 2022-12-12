@@ -1,0 +1,78 @@
+input[type=text],
+input[type=password],
+input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=number]:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+
+
+.registerbtn {
+    background-color: violet;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.rgbtn {
+    width: 100%;
+}
+
+.rgbtn img {
+    float: right;
+}
+
+/* тут float */
+.abs {
+    position: absolute;
+    top: 200px;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.rel {
+    position: relative;
+    top: 500px;
+    font-size: 30px;
+}
+
+.fixed {
+    position: fixed;
+    right: 1000px;
+    background-color: rgb(0, 81, 255);
+}

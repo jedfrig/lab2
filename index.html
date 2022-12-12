@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lab 2</title>
+    <style>
+      .container {
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="abs">position: absolute</div>
+    <!-- Абсолют можно разместить в любом месте контейнера в котором он находится и он ни от чего не зависит -->
+    <form action="">
+      <div class="container">
+        <h2>Register</h2>
+        <hr style="border: 1px solid #f1f1f1; margin-bottom: 25px" />
+        <!-- тут применение атрибута style -->
+        <h3>Fill the form for register</h3>
+        <hr style="border: 1px solid #f1f1f1; margin-bottom: 25px" />
+        <!-- тут применение атрибута style -->
+        <label for="age"><b>Возраст: (18+)</b></label>
+        <input
+          placeholder="Enter your age"
+          name="age"
+          min="18"
+          type="number"
+          required
+        />
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+        <label for="password"><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" name="psw" required />
+        <label for="password"><b>Repeat Password</b></label>
+        <input
+          type="text"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          required
+        />
+        <label for="email"><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter Phone Number" name="phone" />
+        <div class="rgbtn">
+          <button type="submit" class="registerbtn">Submit</button>
+          <img src="assets/1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+        <div class="rel">position: relative</div>
+      </div>
+    </form>
+    <div class="fixed">position: fixed</div>
+  </body>
+</html>
